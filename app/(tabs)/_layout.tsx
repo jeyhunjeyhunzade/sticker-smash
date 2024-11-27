@@ -22,17 +22,6 @@ export default function TabLayout() {
         name="index"
         options={{
           title: "Home",
-          headerTitle: () => (
-            <View style={{ flexDirection: "row", alignItems: "center" }}>
-              <Ionicons
-                name="home-sharp"
-                size={24}
-                color="white"
-                style={{ marginRight: 8 }}
-              />
-              <Text style={{ color: "white", fontSize: 20 }}>Home</Text>
-            </View>
-          ),
           tabBarIcon: ({ color, focused }) => (
             <Ionicons
               name={focused ? "home-sharp" : "home-outline"}
