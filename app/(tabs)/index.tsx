@@ -53,6 +53,7 @@ export default function Index() {
   };
 
   const onAddSticker = () => {
+    console.log("ANDROID_FREEZE::onAddSticker");
     setIsModalVisible(true);
   };
 
